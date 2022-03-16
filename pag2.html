@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <fieldset>
+                    <h1 id="texto">Sistema de Clientes</h1>
+                    <h2 id="texto2">Cadastro</h2>
+                    <input class="i" type="text" id="nome" placeholder="Primeiro Nome">
+                    <input class="i" type="text" id="sobrenome" placeholder="Ultimo Nome"><br><br>
+                    <input class="i" type="email" name="Email" id="email" placeholder="Email">
+                    <input class="i" type="password" name="Password" id="senha" placeholder="Senha"><br><br>
+                    <label for="Sexo">Sexo:</label>
+                    <input class="i" type="radio" name="opcao" id="op1">
+                    <label for="mas">Masculino</label>
+                    <input class="i" type="radio" name="opcao" id="op2">
+                    <label for="fem">Feminino</label>
+                    <input class="i" type="radio" nome="opcao" id="op3">
+                    <label for="outros">Outros</label>
+                    <h2 id="texto2">Endereço</h2>
+                    <select name="Estado" id="uf">Estado
+                        <option class="i" value="0" id="regiao">Escolha sua Região</option>
+                        <optgroup> <label for="Norte">Norte</label>
+                            <option value="1">Acre</option>
+                            <option value="2">Amazonas</option>
+                            <option value="3">Amapá</option>
+                            <option value="4">Pará</option>
+                            <option value="5">Rondônia</option>
+                            <option value="6">Roraima</option>
+                            <option value="7">Tocantins</option>
+                        </optgroup>
+                        <optgroup> <label for="Nordeste">
+                            <option value="8">Alagoas</option>
+                            <option value="9">Bahia</option>
+                            <option value="10">Ceará</option>
+                            <option value="11">Maranhão</option>
+                            <option value="12">Piauí</option>
+                            <option value="13">Pernambuco</option>
+                            <option value="14">Paraíba</option>
+                            <option value="15">Rio grande do Norte</option>
+                            <option value="16">Sergipe</option>
+                        </optgroup>
+                        <optgroup><label for="Sul">
+                            <option value="17">Paraná</option>
+                            <option value="18">Rio Grande do Sul</option>
+                            <option value="19">Santa Catarina</option>
+                        </optgroup>
+                        <optgroup><label for="Sudeste">
+                            <option value="20">Espirito Santo</option>
+                            <option value="21">Minas Gerais</option>
+                            <option value="22">Rio de Janeiro</option>
+                            <option value="23">São Paulo</option>
+                        </optgroup>
+                    </select><br><br>
+                    <input class="i" type="text" nome="cidade" id="cidade" placeholder="Cidade">
+                    <input class="i" type="number" id="cpf" placeholder="CPF"><br><br>
+                    <input class="i" type="text" id="bairro" placeholder="Bairro">
+                    <input class="i" type="text" id="rua" placeholder="Rua/Avenida"><br><br>
+                    <input class="i" type="number" id="n" placeholder="N°">
+                    <input class="i" type="text" name="text" id="complemento" placeholder="Complemento: Andar, Apartamento, Casa"><br><br>
+                    <input type="button" value="Cadastrar" id="botao">
+                    <a id="link" href="cad.html">Voltar a pag. inicial</a>
+                    <br>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

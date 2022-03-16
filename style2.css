@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to right, #5E66F2, #777CD9, #888df3);
+}
+
+fieldset{
+    background-image:linear-gradient(to right, #161b6d, #020981);
+    box-shadow: 5px 5px 15px #5E66F2 #888df3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 40%;
+    margin-left: 3%;
+    margin-top: 1%;
+    padding: 32px;
+    display:inline-block;
+    border: 0em;
+}
+.i{
+    border-radius: 5px;
+    cursor:text;
+    padding: 5px;
+}
+#nome{
+    width: 47%;
+    float: left;
+    border: white;
+}
+#sobrenome{
+    width: 47%;
+    float: right;
+    border: white;
+}
+#email{
+    width: 47%;
+    float: left;
+    border: white;
+}
+#senha{
+    width: 47%;
+    float: right;
+    border: white;
+}
+#uf{
+    border-radius: 5px;
+    width: 35%;
+    padding: 5px;
+    border: 10px;
+}
+#cidade{
+    width: 47%;
+    float: left;
+    border: white;
+}
+#bairro{
+    width: 47%;
+    float: left;
+    border: white;
+}
+#n{
+    width: 47%;
+    float: left;
+    border: white;
+}
+#cpf{
+    width: 47%;
+    float: right;
+    border: white;
+}
+#rua{
+    width: 47%;
+    float: right;
+    border: white;
+}
+#complemento{
+    width: 47%;
+    float: right;
+    border: white;
+}
+#texto{
+    color: white;
+    margin: auto;
+}
+#texto2{
+    color: white;
+    margin: 0.5em;
+    font-size: 1.6em;
+}
+#link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    font-size: 18px;
+    float: right;
+}
+#link:hover{
+    color: red;
+    cursor: pointer;
+}
